@@ -1,5 +1,0 @@
-image: acpid
-config:
-  binds:
-  - /dev:/dev
-  pid: host
