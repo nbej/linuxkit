@@ -1,6 +1,0 @@
-image: kmsg
-config:
-  binds:
-    - /dev/kmsg:/dev/kmsg
-  capabilities:
-    - CAP_SYSLOG
