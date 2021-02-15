@@ -1,8 +1,0 @@
-image: dm-crypt
-config:
-  binds:
-    - /dev:/dev
-    - /etc/dm-crypt:/etc/dm-crypt
-  capabilities:
-    - CAP_SYS_ADMIN
-    - CAP_MKNOD
